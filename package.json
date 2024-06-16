@@ -9,14 +9,13 @@
     "server-sent-events",
     "stream"
   ],
+  "homepage": "https://github.com/elliottlawrence/sse",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elliottlawrence/sse.git"
+  },
   "license": "MIT",
   "type": "module",
-  "exports": {
-    ".": {
-      "import": "./dist/sse-parser.js",
-      "require": "./dist/sse-parser.umd.cjs"
-    }
-  },
   "scripts": {
     "build": "tsc && vite build",
     "test": "vitest"
@@ -24,9 +23,7 @@
   "devDependencies": {
     "@types/node": "^20.14.2",
     "typescript": "^5.2.2",
-    "vite": "^5.2.0"
-  },
-  "dependencies": {
+    "vite": "^5.2.0",
     "vitest": "^1.6.0"
   }
 }
