@@ -1,6 +1,6 @@
 {
   "name": "sse-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Elliott Lawrence",
   "description": "A streaming parser for Server-Sent Events (SSE)",
   "keywords": [
