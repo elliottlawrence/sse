@@ -17,13 +17,12 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "tsc && vite build",
+    "build": "tsc",
     "test": "vitest"
   },
   "devDependencies": {
     "@types/node": "^20.14.2",
     "typescript": "^5.2.2",
-    "vite": "^5.2.0",
     "vitest": "^1.6.0"
   }
 }
