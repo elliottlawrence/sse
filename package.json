@@ -1,7 +1,15 @@
 {
   "name": "sse-parser",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "author": "Elliott Lawrence",
+  "description": "A streaming parser for Server-Sent Events (SSE)",
+  "keywords": [
+    "sse",
+    "eventsource",
+    "server-sent-events",
+    "stream"
+  ],
+  "license": "MIT",
   "type": "module",
   "exports": {
     ".": {
