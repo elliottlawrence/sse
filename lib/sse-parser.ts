@@ -8,7 +8,7 @@ export interface SSE {
   lastEventId: string;
 }
 
-interface IEventSource {
+export interface IEventSource {
   dispatchEvent(event: SSE): void;
   setReconnectionTime?: (time: number) => void;
 }
